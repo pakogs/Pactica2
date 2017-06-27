@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Practica2</title>
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+      <link rel="stylesheet" href="bower_components/bootstrap/font-awesome/css/font-awesome.css">
+  </head>
+  <body>
+       <div class="navbar navbar-inverse navbar-static-top">
+       <div class="container">
+         <dir class="navbar-header">
+          <a href="" class="navbar-brand">Doña Clilaquil</a>
+         </dir>
+         <ul class="nav navbar-nav navbar-right">
+           <li><a href="Index.html">Home</a></li>
+           <li><a href="products.html">Products</a></li>
+           <li><a href="about.html">About Us</a></li>
+           <li><a href="contact.html" data-toggle="modal" data-target="#modal-contact-form">Contacs Us</a></li>
+           <li>
+             <form class="navbar-form" role="search">
+               <div class="input-group">
+                 <input type="text" class="form-control" placeholder="search...">
+                 <div class="input-group-btn">
+                   <button class="btn btn-default" title="submit">
+                     <i class="glyphicon glyphicon-search"></i>
+                   </button>
+                 </div>
+               </div>
+             </form>
+           </li>
+         </ul>
+       </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <ol class="breadcrumb">
+          <li><a href="index"></a></li
+        </ol>
+    </div>
+      <div class="row">
+        <div class="page-header">
+          <h1>Products. <small> we build </small></h1>
+
+        </div>
+      </div>
+       </div>
+    <hr/>
+    <div class="row">
+      <div class="coll-md-4 col-sm-6">
+        <div class="thumbnail">
+          <a href=""><img src="img/vegeta.jpg" alt=""></a>
+          <div class="caption">
+            <h4><a href="products-single.html">Product Name</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde suscipit a laboriosam hic ipsam quis corporis magnam dolore, nisi excepturi.</p>
+            <p><a href="" class="btn btn-primary" role="button">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="coll-md-4 col-sm-6">
+        <div class="thumbnail">
+          <a href=""><img src="img/adn.jpg" alt=""></a>
+          <div class="caption">
+            <h4><a href="products-single.html">Product Name</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde suscipit a laboriosam hic ipsam quis corporis magnam dolore, nisi excepturi.</p>
+            <p><a href="" class="btn btn-primary" role="button">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="coll-md-4 col-sm-6">
+        <div class="thumbnail">
+          <a href=""><img src="img/gua.jpg" alt=""></a>
+          <div class="caption">
+            <h4><a href="products-single.html">Product Name</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde suscipit a laboriosam hic ipsam quis corporis magnam dolore, nisi excepturi.</p>
+            <p><a href="" class="btn btn-primary" role="button">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="coll-md-4 col-sm-6">
+        <div class="thumbnail">
+          <a href=""><img src="img/equipo.png" alt=""></a>
+          <div class="caption">
+            <h4><a href="products-single.html">Product Name</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde suscipit a laboriosam hic ipsam quis corporis magnam dolore, nisi excepturi.</p>
+            <p><a href="" class="btn btn-primary" role="button">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <div class="footer">
+      <p class="text-center lead">
+        wanna get in touch? Email us at <a href=""> pakoz18@gmail.com</a>
+      </p>
+      <hr/>
+      <ul class="list-unstyled text-center list-inline features">
+        <li>Follow us:</li>
+        <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+        <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
+        <li><a href=""><i class="fa fa-linkedin-squeare"></i></a></li>
+      </ul>
+      <p class="text-center text-muted">
+        &copy; copyright 2017 Company name
+      </p>
+    </div>
+
+    <!-- modal  contact form-->
+    <div class="modal fade" id="modal-contact-form" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h3>contact us</h3>
+          </div>
+          <div class="modal-body">
+            <from>
+              <div class="form-group">
+                <labe for="contact-name" class="form-control-label"></labe>
+                <input type="text" class="form-control" id="contact-name"
+              </div>
+              <div class="form-group">
+                <label for="contact-email" class="form-control-label"></label>
+                <input type="email" class="form-control" id="contact-email">
+              </div>
+              <div class="form-group">
+                <label for="" class="form-control-label"></label>
+                <textarea name="" id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <div class="control">
+                  <input type="submit" class="btn btn-primary" value="send message">
+                </div>
+              </div>
+            </from>
+          </div>
+          <div class="modal-footer">
+                <botton class="btn btn-danger" data-dismiss="modal">cancel</botton>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+      $(document). ready(function(){
+        $('.carousel').carousel({
+          interval:1000
+        });
+      });
+    </script>
+  </body>
+</html>
